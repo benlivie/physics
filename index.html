@@ -1,0 +1,764 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Физика</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/league.css" id="theme">
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+		<link rel="shortcut icon" href="https://img.icons8.com/color/48/000000/rubiks-cube.png"/>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css">
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+
+		<style>
+			h1 {
+					font-size: 3.0em !important;
+				}
+		</style>
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+					<section class="center" data-markdown  data-separator-notes="^Note:">
+						<script type="text/template">
+							Физика
+							==============================================
+							Note:
+							Заголовок
+						</script>
+					</section>
+
+	
+					<section data-markdown  data-separator-notes="^Note:">
+						<script type="text/template">
+							### Определение
+	
+							Фи́зика (от др.-греч. φυσική — «природный») — область естествознания:
+							наука о наиболее общих законах природы, о материи, её структуре, 
+							движении и правилах трансформации.
+							 
+							Note:
+							
+						</script>
+					</section>
+	
+					<section data-markdown  data-separator-notes="^Note:">
+						<script type="text/template">
+							### Определение
+	
+							Термин «физика» впервые фигурирует в сочинениях одного из величайших мыслителей древности — Аристотеля (IV век до нашей эры).
+							Note:
+							
+						</script>
+					</section>
+	
+					<section data-markdown  data-separator-notes="^Note:">
+						<script type="text/template">
+							### Определение
+	
+							Первоначально термины «физика» и «философия» были синонимами, так как в основе 
+							обеих дисциплин лежало стремление объяснить законы функционирования Вселенной.
+					
+							Note:
+							
+						</script>
+					</section>
+					
+					<section data-markdown  data-separator-notes="^Note:">
+						<script type="text/template">
+							### Методы
+	
+							Существуют Три метода изучения физики:
+
+							- Наблюдение
+							- Гипотеза (предположение, догадка)
+							- Эксперимент
+							Note:
+							
+						</script>
+					</section>
+					
+					<section data-markdown  data-separator-notes="^Note:">
+						<script type="text/template">
+							### Наблюдение
+							
+							***Наблюдение*** осуществляется с помощью органов чувств человека, а также с помощью приборов. Например, 
+							в результате повседневных наблюдений установлено, что непрозрачные тела в солнечный день дают тень 
+							На основе дальнейших наблюдений были накоплены факты, говорящие о том, 
+							что размеры тени изменяются в течение дня. Ее длина самая большая утром и вечером, а самая малая — в полдень.
+							
+							Note:
+							
+						</script>
+					</section>
+		
+					<section data-menu-title="деревья">
+						<img src="image/деревья.png" alt="деревья">
+					</section>
+
+					<section data-markdown  data-separator-notes="^Note:">
+						<script type="text/template">
+							### Гипотиза
+							
+							***Гипотиза*** объясняет известные факты и предсказывает новые, еще неизвестные. В рассмотренном примере гипотеза 
+							состоит в том, что свет распространяется прямолинейно. Гипотеза иногда может быть и ошибочной, неверной. Тогда выдвигается новая гипотеза.
+							Или же, что могут образовываться тень и полутень, если источников света несколько или источник один, но он большой 
+							(его размеры сравнимы с расстоянием до непрозрачного предмета, дающего тень).
+							
+							Note:
+							
+						</script>
+					</section>
+		
+					<section data-markdown  data-separator-notes="^Note:">
+						<script type="text/template">
+							### Эксперимент
+							
+							***Эксперимент***, проводимые с двумя источниками света (рис. 14) и с одним источником больших размеров (рис. 15), 
+							показали, что размеры тени, а также наличие тени и полутени полностью подтверждают гипотезу о прямолинейном распространении света.
+							Если гипотеза подтвердилась, то она становится законом.
+							Note:
+							
+						</script>
+					</section>
+
+					<section data-menu-title="свет">
+						<img src="image/свет.png" alt="свет">
+					</section>
+
+					<section class="center" data-markdown  data-separator-notes="^Note:">
+						<script type="text/template">
+							Единицы измерений
+							-------------------------
+							Note:
+						</script>
+					</section>
+
+					<section data-markdown  data-separator-notes="^Note:">
+						<script type="text/template">
+							### Скорость
+	
+							Скорость V - векторная величина, характеризующая направление и быстроту перемещения материальной точки: 
+							$$V  = \tfrac{S}{t}$$ где S - путь, которный нужно пройти, t - время, которое потребуется для прохождения пути.
+							
+							Note:
+	
+						</script>
+					</section>
+
+					<section data-markdown  data-separator-notes="^Note:">
+						<script type="text/template">
+							##### Занимательные факты о скорости: 
+	
+							- Cкорость стрижей, голубей и куликов может достигать 300 км/ч.
+							- Когда самолёт развивает скорость 1000 км/ч, то его длина увеличивается на один сантиметр односительно длины его покоя.
+							- Самое ветреное место – Земля Виктории, находящаяся в Антарктиде. Скорость ветра здесь доходит до 215 км/ч.
+							- Самая большая скорость чтения – 416 250 слов в минуту. Рекордсмен – Евгения Алексеенко.
+							- Самая большая скорость воспроизведения потомства у человека – 58 детей в год. 
+							Note:
+	
+						</script>
+					</section>
+	
+					<section data-markdown  data-separator-notes="^Note:">
+						<script type="text/template">
+							### Температура
+	
+							Температура — физическая величина, характеризующая состояние теплового равновесия макроскопической системы.
+							Единиц измерений 3, но чаще используют Цельсия и Кельвины. Перевод:
+							$$T(K)  = t(C)+273,15^\circ$$ $$t(C)  = T(K)-273,15^\circ$$ где T - градусов Кельвина, t - градусы Цельсия.
+							
+							Note:
+	
+						</script>
+					</section>
+				
+					<section data-markdown  data-separator-notes="^Note:">
+						<script type="text/template">
+							##### Занимательные факты о температуре: 
+	
+							- Самая высокая температура, которую создал человек, составила 4 миллиарда градусов Цельсия.
+							- Самая холодная температура в нашей системе зафиксирована на Луне: всего 30 Кельвинов. Ниже, чем температура Плутона!
+							- Самая низкая температура, которую удалось достичь в искусственных условиях - 100 пикоКельвинов или 0.0000000001 K.
+							- Температура космоса составляет 2,73 Кельвина или около -270 градусов Цельсия.
+							Note:
+	
+						</script>
+					</section>
+					
+					<section data-markdown  data-separator-notes="^Note:">
+						<script type="text/template">
+							### Длина
+	
+							Длина́  — это наименьшее расстояние между точками пространства, в которых колебания происходят в одинаковых фазах. 
+							В международной системе единиц (СИ) за единицу длины принят метр.
+							$$ \lambda = v \cdot T$$ Здесь $\lambda$ - длина волны, $v$ - фазовая скорость, $T$ - период колебаний.
+							Note:
+	
+						</script>
+					</section>
+
+					<section data-markdown  data-separator-notes="^Note:">
+						<script type="text/template">
+							##### Занимательные факты о длинне: 
+	
+							- Самая старая единица длины – локоть – был единицей измерения у многих народов. Так, локоть это 45 см.
+							- Дюйм - равнялся длине трёх ячменных зёрен, вынутых из средней части колоса.
+							- Cогласно легенде, греческий воин по имени Фидиппид в 490 году до нашей эры после битвы при МАРАФОНЕ пробежал, 
+							не останавливаясь, от Марафона до Афин, чтобы возвестить о победе греков, он успел крикнуть «радуйтесь, афиняне, мы победили! » и умер.
+							Note:
+	
+						</script>
+					</section>
+	
+					<section data-markdown  data-separator-notes="^Note:">
+						<script type="text/template">
+							### Масса 
+	
+							Масса – характеристика, которая определяет интенсивность воздействия на него гравитационного поля.
+							В обыденной жизни и в физике XIX века масса синонимична весу.
+							$$ m = \rho \cdot V$$ $m$ - масса тела, $\rho$ - плотность тела, $V$ - его объем. Единицы измерения массы - килограммы (кг).
+					
+							Note:
+	
+						</script>
+					</section>
+
+					<section data-markdown  data-separator-notes="^Note:">
+						<script type="text/template">
+							##### Занимательные факты о массе: 
+	
+							- Самым тяжелым царским головным убором (короной), из когда-либо взвешиваемых, является Шапка Мономаха. Вес составляет 698 грамм.
+							- Инертная масса любого тела равна его гравитационной массе.
+							- Самой тяжелой породой среди домашних собак является сенбернар, 146.6 кг.
+							- Если наполнить чайную ложку веществом, из которого состоят нейтронные звезды, то ее вес будет равняться примерно 110 миллионам тонн!
+							
+							Note:
+	
+						</script>
+					</section>
+
+					<section data-markdown  data-separator-notes="^Note:">
+						<script type="text/template">
+							### Объем
+							Объём — количественная характеристика пространства, занимаемого телом или веществом. Объём тела определяется его формой и линейными размерами.
+							Единица объёма в СИ — кубический метр.
+							$$V = \tfrac{m}{\rho}$$ где $m$ -масса, $\rho$ - плотность вещества.
+					
+							Note:
+	
+						</script>
+					</section>
+
+					<section data-markdown  data-separator-notes="^Note:">
+						<script type="text/template">
+						##### Занимательные факты об объеме: 
+						
+						- Объем воды в Мировом океане составляет 1340740 тыс. км³. Наибольшая глубина 11 022 м.
+						- Объем 1 объема легких кита такой же, что и у 508.333 объемов легких человека.
+						- В древние времена обычно использовали глиняные мерные сосуды для измерения объёма.
+						Note:
+						</script>
+					</section>
+
+					<section data-markdown  data-separator-notes="^Note:">
+						<script type="text/template">
+							### Площадь
+							Площадь - это численная характеристика, которая показывает размер поверхности. Поверхность при этом может быть плоской или криволинейной.
+							$$S = \tfrac{a \cdot h}{2}$$ где $a$ -сторона, $h$ - высота.
+					
+							Note:
+	
+						</script>
+					</section>
+	
+					<section data-markdown  data-separator-notes="^Note:">
+						<script type="text/template">
+						##### Занимательные факты о площади: 
+						
+						- Если сравнить одинаковые по площади фигуры, окажется, что наименьшим периметром обладает круг. Он же будет наибольшим по площади среди 
+						геометрических фигур с равным периметром.
+						- Первой представительницей слабого пола, решившей, что изучение чисел и фигур – удел не только мужчин, была 
+						Гипатия – гречанка, жившая в Александрии 2,5 тысячелетия назад.
+						- Математический гений сегодняшнего дня – россиянин Григорий Перельман, доказавший гипотезу Пуанкаре.
+						Note:
+						</script>
+					</section>
+
+					<section data-markdown  data-separator-notes="^Note:">
+						<script type="text/template">
+							### Давление
+
+							Давление – скалярная физическая величина, равная силе, действующей на единицу площади поверхности. В международной системе СИ измеряется в Паскалях
+							и обозначается буквой $p$. Единица измерения давления – 1 Паскаль. Русское обозначение – Па, международное – $Pa$.
+							$$p = \tfrac{F}{S}$$ где $F$ - сила, действующая на тело, $S$ - площадь. 
+
+							Note:
+	
+						</script>
+					</section>
+
+					<section data-markdown  data-separator-notes="^Note:">
+						<script type="text/template">
+						##### Занимательные факты о давлении: 
+						
+						- Когда ты катаешься на коньках, ты фактически скользишь по тонкому слою только что растаявшей воды, которая расстаяла из-за давления твоего тела на лед.
+						- Сложно поверить, но даже очень стройная модель может испортить пол своими каблуками.
+						- Крупные артерии человека могут выдерживать давление в 20 атмосфер.
+						- Предел Армстронга – это высота над уровнем моря, где давление падает до такой степени, что кровь в человеческом теле закипает (19200 метров над уровнем моря).
+						Note:
+						</script>
+					</section>
+
+					<section>
+						<h3>Конвертер скорости</h3>
+						<!-- Поле для ввода конвертируемого значения -->
+						<input type="text" name="" id="converter_value" 
+						placeholder="Метры или километры">
+						<!-- Выпадающее меню с вариантам конвертации -->
+						<select id="converter_type">
+						<option value="meter">Метров в секунду</option>
+						<option value="km">Км. в час</option>
+						</select>
+						<!-- Кнопка конвертации -->
+						<input type="button" id="converter_button" value="Конвертировать">
+						<!-- Поле вывода -->
+						<output id="converter_out"></output>
+					</section>
+					<script>
+					// Конвертер скорости
+					document.querySelector('#converter_button').onclick = () => {
+					let converterValue = document.querySelector('#converter_value');
+					let converterType = document.querySelector('#converter_type');
+					let converterOut = document.querySelector('#converter_out');
+					//Делаем проверку на пустоту
+					if (converterValue.value === '') {
+						alert('Поле не заполнено');
+					}
+					let currentType = +converterType.options.selectedIndex;
+					if (currentType === 0) {
+						//Формируем формулы перевода и рендерим катехом
+						result = katex.renderToString( 
+							math.evaluate('5 * ' + converterValue.value + '/ 18') + 
+							'(м/c)');
+					} else if (currentType === 1) {
+						//Формируем формулы перевода и рендерим катехом
+						result = katex.renderToString( math.evaluate(converterValue.value + 
+						' * 3.6')+'(км/ч)');
+					}
+					converterOut.innerHTML = result;
+				}
+					function km2m (km) {
+					return 5 * km / 18;
+					}
+					</script>
+					
+					<section>
+					<h3>Конвертер температуры</h3>
+						<!-- Поле для ввода конвертируемого значения -->
+						<input type="text1" name="" id="converter_value1" 
+						placeholder="Цельсия или Кельвины">
+						<!-- Выпадающее меню с вариантам конвертации -->
+						<select id="converter_type1">
+						<option value="cel">Форенгейт</option>
+						<option value="far">Цельсий'</option>
+						</select>
+						<!-- Кнопка конвертации -->
+						<input type="button" id="converter_button1" value="Конвертировать">
+						<!-- Поле вывода -->
+						<output id="converter_out1"></output>
+					</section>
+					<script>
+					// Конвертер скорости
+					document.querySelector('#converter_button1').onclick = () => {
+					let converterValue1 = document.querySelector('#converter_value1');
+					let converterType1 = document.querySelector('#converter_type1');
+					let converterOut1 = document.querySelector('#converter_out1');
+					//Делаем проверку на пустоту
+					if (converterValue1.value === '') {
+						alert('Поле не заполнено');
+					}
+					let currentType1 = +converterType1.options.selectedIndex;
+					if (currentType1 === 0) {
+						//Формируем формулы перевода и рендерим катехом
+						result = katex.renderToString( 
+							math.evaluate('('+ converterValue1.value + '- 32 '+')'+'/ 1.8') + 
+							'^{\\circ}C');
+					} else if (currentType1 === 1) {
+						//Формируем формулы перевода и рендерим катехом
+						result = katex.renderToString( math.evaluate(converterValue1.value + 
+						' * 1.8 + 32')+'^{\\circ}F');
+					}
+					converterOut1.innerHTML = result;
+				}
+					function cel2far (cel) {
+					return  cel * 1.8 +32;
+					}
+					</script>
+
+					<section>
+					<h3>Конвертер длинны</h3>
+						<!-- Поле для ввода конвертируемого значения -->
+						<input type="text2" name="" id="converter_value2" 
+						placeholder="Введите значение">
+						<!-- Выпадающее меню с вариантам конвертации -->
+						<select id="converter_type2">
+						<option value="m">Метры</option>
+						<option value="cm">Сантиметр</option>
+						<option value="km">Километр</option>
+						<option value="mil">Мили</option>
+						</select>
+						<!-- Кнопка конвертации -->
+						<input type="button" id="converter_button2" value="Конвертировать">
+						<!-- Поле вывода -->
+						<output id="converter_out2"></output>
+					</section>
+					<script>
+					// Конвертер длинны
+					document.querySelector('#converter_button2').onclick = () => {
+					let converterValue2 = document.querySelector('#converter_value2');
+					let converterType2 = document.querySelector('#converter_type2');
+					let converterOut2 = document.querySelector('#converter_out2');
+					//Делаем проверку на пустоту
+					if (converterValue2.value === '') {
+						alert('Поле не заполнено');
+					}
+					let currentType2 = +converterType2.options.selectedIndex;
+					if (currentType2 === 0) {
+						//Формируем формулы перевода и рендерим катехом
+						result = katex.renderToString( 
+							math.evaluate( converterValue2.value + ' * 100') + 
+							'cm');
+					} else if (currentType2 === 1) {
+						//Формируем формулы перевода и рендерим катехом
+						result = katex.renderToString( math.evaluate(converterValue2.value + 
+						' / 100 ')+'m');
+					} else if (currentType2 === 2) {
+						//Формируем формулы перевода и рендерим катехом
+						result = katex.renderToString( math.evaluate(converterValue2.value + 
+						' * 1000 ')+'m');
+					} else if (currentType2 === 3) {
+						//Формируем формулы перевода и рендерим катехом
+						result = katex.renderToString( math.evaluate(converterValue2.value + 
+						' * 1.61')+'km');
+					} 
+					converterOut2.innerHTML = result;
+				}
+					function m2cm (cm) {
+					return  cm * 100;
+					}
+					</script>
+					<section>
+					<h3>Конвертер массы</h3>
+						<!-- Поле для ввода конвертируемого значения -->
+						<input type="text3" name="" id="converter_value3" 
+						placeholder="Введите значение">
+						<!-- Выпадающее меню с вариантам конвертации -->
+						<select id="converter_type3">
+						<option value="gr">Килограмм</option>
+						<option value="kg">Грамм</option>
+						<option value="tonn">Тонн</option>
+						<option value="pud">Пуды</option>
+						</select>
+						<!-- Кнопка конвертации -->
+						<input type="button" id="converter_button3" value="Конвертировать">
+						<!-- Поле вывода -->
+						<output id="converter_out3"></output>
+					</section>
+					<script>
+					// Конвертер массы
+					document.querySelector('#converter_button3').onclick = () => {
+					let converterValue3 = document.querySelector('#converter_value3');
+					let converterType3 = document.querySelector('#converter_type3');
+					let converterOut3 = document.querySelector('#converter_out3');
+					//Делаем проверку на пустоту
+					if (converterValue3.value === '') {
+						alert('Поле не заполнено');
+					}
+					let currentType3 = +converterType3.options.selectedIndex;
+					if (currentType3 === 0) {
+						//Формируем формулы перевода и рендерим катехом
+						result = katex.renderToString( 
+							math.evaluate( converterValue3.value + ' * 1000') + 
+							'гр');
+					} else if (currentType3 === 1) {
+						//Формируем формулы перевода и рендерим катехом
+						result = katex.renderToString( math.evaluate(converterValue3.value + 
+						' / 1000 ')+'кг');
+					} else if (currentType3 === 2) {
+						//Формируем формулы перевода и рендерим катехом
+						result = katex.renderToString( math.evaluate(converterValue3.value + 
+						' * 1000 ')+'кг');
+					} else if (currentType3 === 3) {
+						//Формируем формулы перевода и рендерим катехом
+						result = katex.renderToString( math.evaluate(converterValue3.value + 
+						' * 16.38')+'кг');
+					} 
+					converterOut3.innerHTML = result;
+				}
+					function kg2gr (kg) {
+					return  kg / 1000;
+					}
+					</script>
+					<section>
+					<h3>Конвертер площади</h3>
+						<!-- Поле для ввода конвертируемого значения -->
+						<input type="text4" name="" id="converter_value4" 
+						placeholder="Введите значение">
+						<!-- Выпадающее меню с вариантам конвертации -->
+						<select id="converter_type4">
+						<option value="m2">Кв. метр</option>
+						<option value="kkm">Кв. км</option>
+						<option value="ga">Гектар</option>
+						</select>
+						<!-- Кнопка конвертации -->
+						<input type="button" id="converter_button4" value="Конвертировать">
+						<!-- Поле вывода -->
+						<output id="converter_out4"></output>
+					</section>
+					<script>
+					// Конвертер площади
+					document.querySelector('#converter_button4').onclick = () => {
+					let converterValue4 = document.querySelector('#converter_value4');
+					let converterType4 = document.querySelector('#converter_type4');
+					let converterOut4 = document.querySelector('#converter_out4');
+					//Делаем проверку на пустоту
+					if (converterValue4.value === '') {
+						alert('Поле не заполнено');
+					}
+					let currentType4 = +converterType4.options.selectedIndex;
+					if (currentType4 === 0) {
+						//Формируем формулы перевода и рендерим катехом
+						result = katex.renderToString( 
+							math.evaluate( converterValue4.value + ' / 1000000') + 
+							'км^2');
+					} else if (currentType4 === 1) {
+						//Формируем формулы перевода и рендерим катехом
+						result = katex.renderToString( math.evaluate(converterValue4.value + 
+						' * 1000000 ')+'м^2');
+					} else if (currentType4 === 2) {
+						//Формируем формулы перевода и рендерим катехом
+						result = katex.renderToString( math.evaluate(converterValue4.value + 
+						' / 100 ')+'км^2');
+					} 
+					converterOut4.innerHTML = result;
+				}
+					function m22kkm (m2) {
+					return  kg / 1000000;
+					}
+					</script>
+					<section>
+					<h3>Конвертер объема</h3>
+						<!-- Поле для ввода конвертируемого значения -->
+						<input type="text5" name="" id="converter_value5" 
+						placeholder="Введите значение">
+						<!-- Выпадающее меню с вариантам конвертации -->
+						<select id="converter_type5">
+						<option value="m3">Кубический метр</option>
+						<option value="barel">Баррель (нефть)</option>
+						<option value="litr">Литр</option>
+						<option value="stakan">Стакан</option>
+						</select>
+						<!-- Кнопка конвертации -->
+						<input type="button" id="converter_button5" value="Конвертировать">
+						<!-- Поле вывода -->
+						<output id="converter_out5"></output>
+					</section>
+					<script>
+					// Конвертер объема
+					document.querySelector('#converter_button5').onclick = () => {
+					let converterValue5 = document.querySelector('#converter_value5');
+					let converterType5 = document.querySelector('#converter_type5');
+					let converterOut5 = document.querySelector('#converter_out5');
+					//Делаем проверку на пустоту
+					if (converterValue5.value === '') {
+						alert('Поле не заполнено');
+					}
+					let currentType5 = +converterType5.options.selectedIndex;
+					if (currentType5 === 0) {
+						//Формируем формулы перевода и рендерим катехом
+						result = katex.renderToString( 
+							math.evaluate( converterValue5.value + ' * 1000') + 
+							'литров');
+					} else if (currentType5 === 1) {
+						//Формируем формулы перевода и рендерим катехом
+						result = katex.renderToString( math.evaluate(converterValue5.value + 
+						' * 159 ')+'литров');
+					} else if (currentType5 === 2) {
+						//Формируем формулы перевода и рендерим катехом
+						result = katex.renderToString( math.evaluate(converterValue5.value + 
+						' / 1000 ')+'м^3');
+					} else if (currentType5 === 3) {
+						//Формируем формулы перевода и рендерим катехом
+						result = katex.renderToString( math.evaluate(converterValue5.value + 
+						' * 0.2366 ')+'литров');
+					} 
+					converterOut5.innerHTML = result;
+				}
+					function m32litr (litr) {
+					return  litr * 1000;
+					}
+					</script>
+					<section>
+					<h3>Конвертер давления</h3>
+						<!-- Поле для ввода конвертируемого значения -->
+						<input type="text6" name="" id="converter_value6" 
+						placeholder="Введите значение">
+						<!-- Выпадающее меню с вариантам конвертации -->
+						<select id="converter_type6">
+						<option value="bar">Бар</option>
+						<option value="mmr">Мм. ртутного столба</option>
+						</select>
+						<!-- Кнопка конвертации -->
+						<input type="button" id="converter_button6" value="Конвертировать">
+						<!-- Поле вывода -->
+						<output id="converter_out6"></output>
+					</section>
+					<script>
+					// Конвертер давления
+					document.querySelector('#converter_button6').onclick = () => {
+					let converterValue6 = document.querySelector('#converter_value6');
+					let converterType6 = document.querySelector('#converter_type6');
+					let converterOut6 = document.querySelector('#converter_out6');
+					//Делаем проверку на пустоту
+					if (converterValue6.value === '') {
+						alert('Поле не заполнено');
+					}
+					let currentType6 = +converterType6.options.selectedIndex;
+					if (currentType6 === 0) {
+						//Формируем формулы перевода и рендерим катехом
+						result = katex.renderToString( 
+							math.evaluate( converterValue6.value + ' * 750.1') + 
+							' мм. ртутного столба');
+					} else if (currentType6 === 1) {
+						//Формируем формулы перевода и рендерим катехом
+						result = katex.renderToString( math.evaluate(converterValue6.value + 
+						' / 750.1 ')+'бар');
+					}  
+					converterOut6.innerHTML = result;
+				}
+					function bar2mmr (mmr) {
+					return  mmr / 750.1;
+					}
+					</script>
+
+					<section data-markdown  data-separator-notes="^Note:">
+						<script type="text/template">
+							### Примеры задач на скорость, время, расстояние
+							Задача 1. Машина двигается со скоростью 80 км/ч. Сколько километров он проедет за 3 часа?
+							$(80 * 3= 240 км).$\
+							Задача 2. Автомобиль за 3 часа проехали 180 км с одной и той же скоростью. Чему равна скорость автомобиля?
+							$(180 / 3 = 60 км/ч)$\
+							Задача 3. Вертолет пролетел расстояние в 600 км со скоростью 120 км/ч. Сколько времени он был в полете?
+							$(600 / 120 = 5 часов)$
+							Note:
+	
+						</script>
+					</section>
+
+					<section>
+					<h3>Задачи</h3>
+						<label>Скорость:</label>
+						<input placeholder="V Скорость" autocomplete="off" id="V" type="text"><label>км/ч</label><br>
+						<label>Время:</label>
+						<input placeholder="T Время" autocomplete="off" id="T" type="text"><label>ч</label><br>
+						<label>Расстояние:</label>
+						<input placeholder="S Расстояние" autocomplete="off" id="S" type="text"><label>км</label><br>		
+						<input onClick="raschet()"  autocomplete="off"  value="Рассчитать" type="button">
+					</section>
+					<script>
+					function raschet(){
+						var arr = Array();
+						var q;
+						if(V.value!=''){arr.push('V');}else{q = 'V';}
+						if(T.value!=''){arr.push('T');}else{q = 'T';}
+						if(S.value!=''){arr.push('S');}else{q = 'S';}
+						if(arr.length==2){
+							if(q=='V'){
+								V.value = S.value/T.value;
+							}
+							if(q=='T'){
+								T.value = S.value/V.value;
+							}
+							if(q=='S'){
+								S.value = V.value*T.value;
+							}
+						}
+					}
+					</script>
+
+					<section
+						data-background-image="image/мэм.jpg"
+						data-background-size="contain"
+						data-menu-title="мэм"
+					></section>
+				<section data-menu-title="Лучи">
+					<img src="image/лучи.png" alt="лучи">
+				</section>
+					<section data-menu-title="Добрыня">
+						<img src="image/шарики.png" alt="добрыня">
+					</section>
+					<section
+				data-background-image="image/прога.jpg"
+				data-menu-title="прога"
+				></section>
+				<section
+				data-background-image="image/физика.jpg"
+				data-menu-title="физика"
+				></section>
+				<section data-menu-title="Заключительный слайд" class="center" data-markdown  data-separator-notes="^Note:">
+					<script type="text/template">
+						Спасибо за внимание
+					</script>
+
+					
+
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/math/math.js"></script>
+		<script src="js/algebrite.bundle-for-browser.js"></script>
+		<script src="js/math.js"></script>
+		<script src="js/plotly-2.6.3.min.js"></script>
+		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+		<script src="https://city.9pr.ru/socket.io/socket.io.js"></script>
+
+		<script>
+			Reveal.initialize({
+				hash: true, // данная настройка позволит после перезагрузки презентации вернутся к последнему открытому слайду
+				center: false, //Привязываем вверх слайда к верху экрана
+				slideNumber: true, //Показываем номер страницы
+				controls: true, //Разрешаем управлять презентацией с помощью клавиатуры
+				//Так как меню старый плагин, загружаем его старым методом
+				dependencies: [
+					{
+						src: 'plugin/menu/menu.js'
+					},
+				],
+				//Настраиваем меню, показывая номер слайда и маркер пройденных слайдов
+				menu : {
+					numbers: true,
+					markers: true, 
+				},
+				//Дополнительно подключим KaTeX
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX]
+			});
+		</script>
+		<script>
+			Здесь был конвертер
+		</script>
+		
+	</body>
+</html>
